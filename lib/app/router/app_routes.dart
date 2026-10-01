@@ -1,0 +1,36 @@
+abstract final class AppRoutes {
+  static const home = '/home';
+  static const login = '/login';
+  static const register = '/register';
+  static const forgetPassword = '/forget-password';
+  static const addTransaction = '/add-transaction';
+  static const settings = '/settings';
+  static const accounts = '/accounts';
+  static const addAccount = '/add-account';
+  static const transactions = '/transactions';
+  static const transactionDetails = '/transaction-details';
+  static const userProfile = '/user-profile';
+  static const transactionCategories = '/transaction-categories';
+  static const primaryCategories = '/primary-categories';
+  static const secondaryCategories = '/secondary-categories';
+  static const addCategory = '/add-category';
+  static const transactionTags = '/transaction-tags';
+  static const transactionTemplates = '/transaction-templates';
+  static const addTransactionTemplate = '/add-transaction-template';
+  static const dataManagement = '/data-management';
+  static const twoFactorAuth = '/two-factor-auth';
+  static const deviceAndSessions = '/device-and-sessions';
+  static const textSize = '/text-size';
+  static const applicationLock = '/application-lock';
+  static const exchangeRatesData = '/exchange-rates-data';
+  static const about = '/about';
+  static const statistics = '/statistics';
+  static const preferences = '/preferences';
+  static const accountCategoryOrder = '/account-category-order';
+  static const chartColorScheme = '/chart-color-scheme';
+  static const filterAccounts = '/filter-accounts';
+  static const filterTransactionCategories = '/filter-transaction-categories';
+  static const filterTransactionTags = '/filter-transaction-tags';
+  static const homePageLayout = '/home-page-layout';
+  static const statisticsSettings = '/statistics-settings';
+}
